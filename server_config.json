@@ -1,0 +1,18 @@
+{
+    "mcpServers": {
+        "research": {
+            "command": "/usr/local/bin/python3",
+            "args": ["/Users/sivakonduru/Documents/play/ml_course/mcp/05.research_server.py"]
+        },
+        "filesystem": {
+            "command": "/Users/sivakonduru/Documents/play/ml_course/mcp/node_modules/.bin/mcp-server-filesystem",
+            "args": [
+                "/Users/sivakonduru/Documents/play/ml_course/mcp"
+            ]
+        },
+        "fetch": {
+            "command": "/Library/Frameworks/Python.framework/Versions/3.14/bin/mcp-server-fetch",
+            "args": []
+        }
+    }
+}

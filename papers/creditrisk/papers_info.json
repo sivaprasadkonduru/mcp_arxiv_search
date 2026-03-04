@@ -1,0 +1,55 @@
+{
+  "cond-mat/0112045v2": {
+    "title": "Calculating Value-at-Risk contributions in CreditRisk+",
+    "authors": [
+      "Hermann Haaf",
+      "Dirk Tasche"
+    ],
+    "summary": "Credit Suisse First Boston (CSFB) launched in 1997 the model CreditRisk+ which aims at calculating the loss distribution of a credit portfolio on the basis of a methodology from actuarial mathematics. Knowing the loss distribution, it is possible to determine quantile-based values-at-risk (VaRs) for the portfolio. An open question is how to attribute fair VaR contributions to the credits or loans forming the portfolio. One approach is to define the contributions as certain conditional expectations. We develop an algorithm for the calculations involved in this approach. This algorithm can be adapted for computing the contributions to the portfolio Expected Shortfall (ES).\n  Key words: CreditRisk+; Value-at-Risk (VaR); risk contribution; conditional expectation.",
+    "pdf_url": "https://arxiv.org/pdf/cond-mat/0112045v2",
+    "published": "2001-12-04"
+  },
+  "1601.04557v4": {
+    "title": "Crunching Mortality and Life Insurance Portfolios with extended CreditRisk+",
+    "authors": [
+      "Jonas Hirz",
+      "Uwe Schmock",
+      "Pavel V. Shevchenko"
+    ],
+    "summary": "Using an extended version of the credit risk model CreditRisk+, we develop a flexible framework with numerous applications amongst which we find stochastic mortality modelling, forecasting of death causes as well as profit and loss modelling of life insurance and annuity portfolios which can be used in (partial) internal models under Solvency II. Yet, there exists a fast and numerically stable algorithm to derive loss distributions exactly, even for large portfolios. We provide various estimation procedures based on publicly available data. Compared to the Lee-Carter model, we have a more flexible framework, get tighter bounds and can directly extract several sources of uncertainty. Straight-forward model validation techniques are available.",
+    "pdf_url": "https://arxiv.org/pdf/1601.04557v4",
+    "published": "2016-01-18"
+  },
+  "1505.04757v7": {
+    "title": "Actuarial Applications and Estimation of Extended~CreditRisk$^+$",
+    "authors": [
+      "Jonas Hirz",
+      "Uwe Schmock",
+      "Pavel V. Shevchenko"
+    ],
+    "summary": "We introduce an additive stochastic mortality model which allows joint modelling and forecasting of underlying death causes. Parameter families for mortality trends can be chosen freely. As model settings become high dimensional, Markov chain Monte Carlo (MCMC) is used for parameter estimation. We then link our proposed model to an extended version of the credit risk model CreditRisk$^+$. This allows exact risk aggregation via an efficient numerically stable Panjer recursion algorithm and provides numerous applications in credit, life insurance and annuity portfolios to derive P\\&L distributions. Furthermore, the model allows exact (without Monte Carlo simulation error) calculation of risk measures and their sensitivities with respect to model parameters for P\\&L distributions such as value-at-risk and expected shortfall. Numerous examples, including an application to partial internal models under Solvency II, using Austrian and Australian data are shown.",
+    "pdf_url": "https://arxiv.org/pdf/1505.04757v7",
+    "published": "2015-05-18"
+  },
+  "1507.07162v1": {
+    "title": "Forecasting Leading Death Causes in Australia using Extended CreditRisk$+$",
+    "authors": [
+      "Pavel V. Shevchenko",
+      "Jonas Hirz",
+      "Uwe Schmock"
+    ],
+    "summary": "Recently we developed a new framework in Hirz et al (2015) to model stochastic mortality using extended CreditRisk$^+$ methodology which is very different from traditional time series methods used for mortality modelling previously. In this framework, deaths are driven by common latent stochastic risk factors which may be interpreted as death causes like neoplasms, circulatory diseases or idiosyncratic components. These common factors introduce dependence between policyholders in annuity portfolios or between death events in population. This framework can be used to construct life tables based on mortality rate forecast. Moreover this framework allows stress testing and, therefore, offers insight into how certain health scenarios influence annuity payments of an insurer. Such scenarios may include improvement in health treatments or better medication. In this paper, using publicly available data for Australia, we estimate the model using Markov chain Monte Carlo method to identify leading death causes across all age groups including long term forecast for 2031 and 2051. On top of general reduced mortality, the proportion of deaths for certain certain causes has changed massively over the period 1987 to 2011. Our model forecasts suggest that if these trends persist, then the future gives a whole new picture of mortality for people aged above 40 years. Neoplasms will become the overall number-one death cause. Moreover, deaths due to mental and behavioural disorders are very likely to surge whilst deaths due to circulatory diseases will tend to decrease. This potential increase in deaths due to mental and behavioural disorders for older ages will have a massive impact on social systems as, typically, such patients need long-term geriatric care.",
+    "pdf_url": "https://arxiv.org/pdf/1507.07162v1",
+    "published": "2015-07-26"
+  },
+  "cond-mat/0207750v2": {
+    "title": "Credit Risk Contributions to Value-at-Risk and Expected Shortfall",
+    "authors": [
+      "Alexandre Kurth",
+      "Dirk Tasche"
+    ],
+    "summary": "This paper presents analytical solutions to the problem of how to calculate sensible VaR (Value-at-Risk) and ES (Expected Shortfall) contributions in the CreditRisk+ methodology. Via the ES contributions, ES itself can be exactly computed in finitely many steps. The methods are illustrated by numerical examples.",
+    "pdf_url": "https://arxiv.org/pdf/cond-mat/0207750v2",
+    "published": "2002-07-31"
+  }
+}
